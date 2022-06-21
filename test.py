@@ -11,7 +11,7 @@ import queue
 plt.rcParams.update({'figure.max_open_warning': 0})
 
 DO_BINARY_FILTER = True  # Выполнять Binary opening/closing или нет
-TOTAL_CYCLES = 1  # Количество циклов
+TOTAL_CYCLES = 1  # Количество циклов картирования
 MEAN_FRAME_NUM = 5  # Число кадров для получения усредненного базового
 BINARY_FILTER_SIZE = 15  # Размер стороны квадрата для binary opening/closing
 CAMERA_EXPOSITION = 25  # Экспозиция в мс
