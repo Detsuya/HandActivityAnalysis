@@ -1,5 +1,6 @@
 import re
 import pandas
+import opencv
 
 def logcheker(phone=False):
     if not phone:
